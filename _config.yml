@@ -6,10 +6,10 @@ description: > # this means to ignore newlines until "baseurl:"
  Experience the luxury of Bali natural resources through the exquisiteness of amenities, food and breathtaking scenery. We rent traditionally built bungalows, offer tasty food and organise activities for our guests.
 keywords: Bali, traditional, eco, eco-friendly, rooms, restaurant, activities, green
 lang: en_US
-version: 1.0.1
+version: 1.0.2
 
 baseurl: ""
-url: "https://deklumpu.netlify.com/"
+url: "https://deklumpubali.com/"
 qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
 menu: short_menu # 'short_menu' or 'long_menu'
 
@@ -38,7 +38,6 @@ company:
   soundcloud: #complete URL
 
 #SEO https://jekyll.github.io/jekyll-seo-tag/usage/
-#
 # SEO tag will use the YAML front matter if included in a post, page, or document:
 #
 # title
@@ -46,7 +45,6 @@ company:
 # image - (e.g., /assets/page-pic.jpg)
 # author - Page-specific author (see below)
 # lang - Page-specific language
-
 author: rokma
 twitter:
   username: rokmatwit
@@ -55,12 +53,10 @@ facebook:
   publisher: #Facebook page URL or ID of the publishing entity
   admins: #Facebook user ID for domain insights linked to a personal account
 logo: /assets/favicons/apple-touch-icon-152x152.png
-webmaster_verifications:
-  google: google32e66f1a5601ec40
-
 
 google:
   analytics: UA-108376629-1
+  verification: X7y9PrTj5o-DFhbVZYgmTrNe97JRbL_nxMQzPEDgEGA
 
 # Build settings
 markdown: kramdown
