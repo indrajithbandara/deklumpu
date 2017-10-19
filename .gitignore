@@ -1,8 +1,7 @@
-*.gem
-.bundle
+_site
 .sass-cache
-Gemfile.lock
+.jekyll-metadata
 node_modules
 .DS_Store
-__lab
+/__lab
 /.workinprogress
