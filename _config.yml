@@ -1,0 +1,99 @@
+title: De Klumpu
+subtitle: Eco Traditional Stay
+content_is_about: Our Offer # general content of website, used in footer menu title
+show_logo: show # 'show' or 'hide'
+description: > # this means to ignore newlines until "baseurl:"
+ Experience the luxury of Bali natural resources through the exquisiteness of amenities, food and breathtaking scenery. We rent traditionally built bungalows, offer tasty food and organise activities for our guests.
+keywords: Bali, traditional, eco, eco-friendly, rooms, restaurant, activities, green
+lang: en_US
+version: 1.0.0
+
+baseurl: ""
+url: "https://deklumpu.junglestar.org"
+qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
+menu: short_menu # 'short_menu' or 'long_menu'
+
+company:
+  name: De Klumpu
+  legal_name: De Klumpu Bali #if need to overrides 'company.name' in footer fill up this one
+  email: info@deklumpubali.com
+  telephone: +62 8123811161
+  fax: +62 361467149
+  address: Jl Pura Dalem No. 99x, Undisan Klod, Tembuku, Bangli, 80671 Bali
+  maplink: https://goo.gl/maps/47pJ6jbV2vs
+  country: Indonesia
+  twitter: https://twitter.com/deklumpubali
+  facebook_page: https://www.facebook.com/people/De-Klumpu-Bali-Ecotradiplace/100010404757353
+  youtube: https://youtu.be/asYas1ngGdg
+  instagram: https://www.instagram.com/deklumpubali/
+  bridestory: https://www.bridestory.com/de-umah-bali
+  agoda: https://www.agoda.com/de-klumpu-bali-eco-tradi-place/hotel/bali-id.html
+  linkedin: #complete URL
+  tripadvisor: https://www.tripadvisor.com/Hotel_Review-g1025506-d7317313-Reviews-De_Klumpu_Bali_Eco_Tradi_Place-Bangli_Bali.html
+  booking_com: http://www.booking.com/Share-7GWPyX
+  booking_sabeapp: https://ibe.sabeeapp.com/properties/De-Klumpu-Bali-Eco-Tradi-Place-booking/?p=bSp831be9556e4632b9
+  airbnb: #complete URL
+  gplus: #complete URL
+  tumblr: #complete URL
+  soundcloud: #complete URL
+
+#SEO https://jekyll.github.io/jekyll-seo-tag/usage/
+#
+# SEO tag will use the YAML front matter if included in a post, page, or document:
+#
+# title
+# description
+# image - (e.g., /assets/page-pic.jpg)
+# author - Page-specific author (see below)
+# lang - Page-specific language
+
+author: rokma
+twitter:
+  username: rokmatwit
+facebook:
+  app_id: #Facebook app ID for Facebook insights
+  publisher: #Facebook page URL or ID of the publishing entity
+  admins: #Facebook user ID for domain insights linked to a personal account
+logo: /assets/favicons/apple-touch-icon-152x152.png
+webmaster_verifications:
+  google: google32e66f1a5601ec40
+
+
+google:
+  analytics: #
+
+# Build settings
+markdown: kramdown
+plugins:
+ - jekyll-seo-tag
+ - jekyll-redirect-from
+ - jekyll-sitemap
+ - html-proofer
+exclude:
+  - Gemfile.lock
+  - node_modules
+  - package-lock.json
+  - Gemfile
+  - rakefile
+
+permalink: /:title/ # pretty
+
+collections:
+  products:
+    output: true
+    permalink: /:path/
+  pages:
+    output: true
+    permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: product # change this to get the layout needed
+
+## NOTES:
+## 'product_group': must be singular and match the dir name in both assets and pages. Used in urls too.
+## title: it's used in headings only to get the plural as in 'tours'.
+## photos must be named same as 'page.title' and when more than 1 '{{page.title}}-02' and so on.

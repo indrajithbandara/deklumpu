@@ -1,0 +1,15 @@
+.svg_color {
+  fill: $link_color;
+  #icn--junglestar & {
+    fill: black;
+  }
+}
+.logo_color {
+  fill: $brand_color;
+  stroke: $brand_color;
+  stroke-width: 2.835;
+  stroke-miterlimit: 2.613;
+}
+.logo_color_white {
+  fill: white;
+}

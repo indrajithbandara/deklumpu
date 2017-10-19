@@ -1,0 +1,8 @@
+*.gem
+.bundle
+.sass-cache
+Gemfile.lock
+node_modules
+.DS_Store
+__lab
+/.workinprogress
