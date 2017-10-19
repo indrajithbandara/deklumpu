@@ -1,7 +1,9 @@
-/_site
-.sass-cache
-.jekyll-metadata
-node_modules
-.DS_Store
 /__lab
 /.workinprogress
+Icon
+.DS_Store
+.sass-cache/
+.jekyll-metadata
+.jekyll
+_site/
+/node_modules
