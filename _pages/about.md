@@ -6,6 +6,9 @@ image: /assets/p/home/01.jpg
 ---
 # About us
 
+![Your welcoming hosts]({{ "/assets/p/about/about-us.jpg" | absolute_url }})
+{:.small_round_image}
+
 We believe in blending ecology and traditions. The property is carefully maintained to ensure it is kept as green and natural as possible. An healthy environment for guests and staff.
 
 We respect and work with the natural elements protecting and preserving the environment around the resort.

@@ -253,15 +253,15 @@ svg {
     .container {
       max-width: 1200px;
       margin: 0 auto; } }
-  .container p, .container .book_now {
+  .container .book_now, .container p {
     margin: 0 0 0 auto;
     max-width: 100%; }
     @media only screen and (min-width: 601px) {
-      .container p, .container .book_now {
+      .container .book_now, .container p {
         max-width: 550px; } }
     @media only screen and (min-width: 601px) {
-      .index .container p,
-      .index .container .book_now {
+      .index .container .book_now,
+      .index .container p {
         max-width: 80%; } }
   .container dl,
   .container ol,
@@ -308,13 +308,23 @@ blockquote p {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
-.small_round_image {
-  float: left; }
-  .small_round_image img {
+.about-us .small_round_image {
+  width: 100%;
+  text-align: center; }
+  @media only screen and (min-width: 841px) {
+    .about-us .small_round_image {
+      float: left;
+      width: auto;
+      max-width: 50vw;
+      max-width: 300px;
+      max-height: 300px;
+      margin-right: 2rem;
+      margin-bottom: 2rem; } }
+  .about-us .small_round_image img {
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-    padding-right: 1rem; }
+    border: 4px solid #b68149;
+    max-width: 270px;
+    max-height: 270px; }
 
 h1,
 h2,
