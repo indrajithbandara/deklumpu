@@ -60,7 +60,7 @@ webmaster_verifications:
 
 
 google:
-  analytics: #
+  analytics: UA-108376629-1
 
 # Build settings
 markdown: kramdown
