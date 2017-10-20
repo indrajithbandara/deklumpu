@@ -141,6 +141,7 @@
 }
 
 .badge img {
-  width: 120px;
+  width: 120px!important;
+  height: auto;
   margin-top: $vertical_rhythm;
 }

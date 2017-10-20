@@ -671,7 +671,8 @@ h3 {
   margin-top: 2rem; }
 
 .badge img {
-  width: 120px;
+  width: 120px !important;
+  height: auto;
   margin-top: 2rem; }
 
 .svg_color {
@@ -687,6 +688,13 @@ h3 {
 
 .logo_color_white {
   fill: white; }
+
+.footer_company_name {
+  text-align: left; }
+  .footer_company_name svg {
+    width: 250px;
+    height: auto;
+    margin: 0; }
 
 .button_row {
   padding-top: 0.125rem;

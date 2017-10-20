@@ -1,4 +1,4 @@
-title: De Klumpu
+title: De Klumpu Bali
 subtitle: Eco Traditional Stay
 content_is_about: Our Offer # general content of website, used in footer menu title
 show_logo: show # 'show' or 'hide'
@@ -14,7 +14,7 @@ qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
 menu: short_menu # 'short_menu' or 'long_menu'
 
 company:
-  name: De Klumpu
+  name: De Klumpu Bali
   legal_name: De Klumpu Bali #if need to overrides 'company.name' in footer fill up this one
   email: info@deklumpubali.com
   telephone: +62 8123811161
