@@ -167,7 +167,7 @@
     position: relative;
     top: -5px;
     left: 15px;
-    color: darken($brand_color, 10%);
+    color: $brand_color;
     padding-left: 8px;
     font-size: 1rem;
     @include media( "screen", ">minWidth") {

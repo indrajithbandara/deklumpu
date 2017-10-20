@@ -322,9 +322,59 @@ blockquote p {
       margin-bottom: 2rem; } }
   .about-us .small_round_image img {
     border-radius: 50%;
-    border: 4px solid #b68149;
+    border: 4px solid #92673a;
     max-width: 270px;
     max-height: 270px; }
+
+.sustainable section {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media only screen and (min-width: 841px) {
+    .sustainable section {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  @media only screen and (min-width: 841px) {
+    .sustainable section .section_text {
+      padding-top: 4rem;
+      width: 50%; } }
+
+.section_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .section_head svg {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 1rem; }
+  .section_head h2 {
+    margin-top: 0.5rem;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
+  @media only screen and (min-width: 841px) {
+    .section_head svg {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2; }
+    .section_head h2 {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; } }
 
 h1,
 h2,
@@ -660,10 +710,11 @@ h3 {
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  text-align: center; }
-  @media only screen and (min-width: 601px) {
-    .footer_company_name {
-      text-align: left; } }
+  text-align: left; }
+  .footer_company_name svg {
+    width: 250px;
+    height: auto;
+    margin: 0; }
 
 .copyright {
   font-size: 10px;
@@ -681,20 +732,17 @@ h3 {
     fill: black; }
 
 .logo_color {
-  fill: #b68149;
-  stroke: #b68149;
+  fill: #92673a;
+  stroke: #92673a;
   stroke-width: 2.835;
   stroke-miterlimit: 2.613; }
 
 .logo_color_white {
   fill: white; }
 
-.footer_company_name {
-  text-align: left; }
-  .footer_company_name svg {
-    width: 250px;
-    height: auto;
-    margin: 0; }
+.sustainable .product_text svg {
+  width: 100px;
+  height: 100px; }
 
 .button_row {
   padding-top: 0.125rem;
@@ -1259,7 +1307,7 @@ blockquote p {
 
 .bungkus.promotion {
   z-index: 7;
-  background-color: #f0e6db;
+  background-color: #e2cdb6;
   padding-bottom: 2rem; }
   .bungkus.promotion .promotion_title {
     margin-top: 2rem;
