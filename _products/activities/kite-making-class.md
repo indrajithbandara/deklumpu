@@ -1,6 +1,6 @@
 ---
 name: Kite making class
-subtitle: Make a toy and play with it
+subtitle: Make it and play it
 description: Our staff will assist the children how to make a simple, easy-to-make kite and learn how to fly it around the field. Paper kite that are great for kids!
 product_group: activities
 many_pictures: true
