@@ -1,6 +1,6 @@
 ---
 name: Catching a duck
-subtitle: Farmer know how fun
+subtitle: Farmer life fun
 description: For children and adults. Our staff will escort you. A short walk to the location of the rice field where the hunt begins.
 product_group: activities
 many_pictures: true

@@ -1,6 +1,6 @@
 ---
 name: Balinese Cooking class
-subtitle: Explore Bali farmer life
+subtitle: Secrets of authentic Balinese dishes
 description: Starts with visiting a traditional market. Find the ingredients for your cooking. Your local host who will guide you into the secrets of authentic Balinese dishes. The tour will follow with enjoying your own cooked lunch. You gonna learn a typical Balinese activity, making the Canang offerings.
 product_group: activities
 many_pictures: true

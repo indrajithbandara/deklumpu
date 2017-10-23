@@ -1,6 +1,6 @@
 ---
 name: Wedding blessing
-subtitle: Details of a Bali charm
+subtitle: Details of Bali charm
 description: Arrived at Undisan Village, you will be welcomed at d’Umah Bali, you will get the Balinese treatment Lulur, “Mandus ke Tukad”, then Mepayas make up. Then we will do Natab, a blessing ceremony...
 product_group: activities
 many_pictures: true
