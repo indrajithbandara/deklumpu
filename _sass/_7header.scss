@@ -145,10 +145,13 @@
     }
   }
 
-  .logotext {
-    //svg
-    max-height: 55px;
-    max-width: 260px;
+  .logotext_wrap {
+    height: 55px;
+    svg {
+      margin: 0;
+      padding: 0;
+      width: 250px;
+    }
   }
 
   .logo {

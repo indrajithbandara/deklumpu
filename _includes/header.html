@@ -7,7 +7,9 @@
         {% include svg/use.html id="icn--deklumpulogo" class="logo" %}
         <div class="title_group">
           <h1 class="hide">{{ site.title }}</h1>
-          {% include svg/use.html id="icn--deklumpulogotext" class="logotext" %}
+          <div class="logotext_wrap">
+            {% include svg/use.html id="icn--deklumpulogotext" class="logotext" %}
+          </div>
           <h3>{{ site.subtitle }}</h3>
         </div>
       </a>
