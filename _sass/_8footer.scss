@@ -122,17 +122,18 @@
   color: black;
 }
 
-.footer_company_name {
+.footer_logo {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.5rem;
-  margin-top: $vertical_rhythm;
-  margin-bottom: $vertical_rhythm;
+  margin-top: $vertical_rhythm--small;
+  margin-bottom: $vertical_rhythm--small;
   text-align: left;
   svg {
-    width: 250px;
-    height: auto;
-    margin:0;
+    width: auto;
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: $vertical_rhythm--small;
   }
 }
 
