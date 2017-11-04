@@ -1,13 +1,16 @@
 ---
-layout: default
+layout: product
+name: About
 title: About us
+product_group: about
 description: We blend ecology and traditions. The property is carefully maintained and kept as green and natural as possible. An healthy environment for guests & staff. Working with the natural elements protecting and preserving the environment around the resort.
 image: /assets/p/about/about-us.jpg
+many_pictures: true
+autoplay: true
 ---
-# About us
 
-![Your welcoming hosts]({{ "/assets/p/about/about-us.jpg" | absolute_url }})
-{:.small_round_image}
+
+> "My mission is to develop the area towards sustainable tourism. Encourage local people to take part in the tourism industry preserving culture and tradition." _I Putu Winasta - Founder_
 
 We believe in blending ecology and traditions. The property is carefully maintained to ensure it is kept as green and natural as possible. An healthy environment for guests and staff.
 
